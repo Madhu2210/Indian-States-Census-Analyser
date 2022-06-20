@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620a3e80-0f8d-422c-8b3d-12c7c0ad6ac5" name="Changes" comment="" />
+    <list default="true" id="620a3e80-0f8d-422c-8b3d-12c7c0ad6ac5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridglabz/IndianStatesCensus.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29wJWyBcDwndrsRSkKbCpsvp1S9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,13 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.CensusAnalyser">
+    <configuration name="CensusAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridglabz.CensusAnalyser" />
+      <module name="IndianStatesCensus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridglabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndianStatesCensus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridglabz.IndianStatesCensus" />
       <module name="IndianStatesCensus" />
@@ -39,8 +66,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CensusAnalyseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndianStatesCensus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridglabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridglabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridglabz.CensusAnalyseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CensusAnalyseTest.givenIndianCensusCSVFile_whenLoad_shouldReturnCorrectRecordCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndianStatesCensus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridglabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridglabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridglabz.CensusAnalyseTest" />
+      <option name="METHOD_NAME" value="givenIndianCensusCSVFile_whenLoad_shouldReturnCorrectRecordCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CensusAnalyseTest.givenIndianCensusCSVFile_whenLoad_shouldReturnIncorrectRecordCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IndianStatesCensus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridglabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridglabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridglabz.CensusAnalyseTest" />
+      <option name="METHOD_NAME" value="givenIndianCensusCSVFile_whenLoad_shouldReturnIncorrectRecordCase3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CensusAnalyser" />
+        <item itemvalue="JUnit.CensusAnalyseTest.givenIndianCensusCSVFile_whenLoad_shouldReturnIncorrectRecordCase3" />
+        <item itemvalue="JUnit.CensusAnalyseTest.givenIndianCensusCSVFile_whenLoad_shouldReturnCorrectRecordCase1" />
+        <item itemvalue="JUnit.CensusAnalyseTest" />
         <item itemvalue="Application.IndianStatesCensus" />
       </list>
     </recent_temporary>
@@ -55,5 +133,16 @@
       <updated>1654018252745</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
